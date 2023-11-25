@@ -1,0 +1,71 @@
+/* Task 3 - comments form CSS  */
+
+.comment{
+	padding:200px 200px;
+}
+
+.reset{
+	background-color: #698269;
+	font-size:16px;
+	color: black;
+	padding: 10px 30px;
+	text-align: center;
+}
+
+.reset:hover {
+	color: #B99B6B;
+}
+
+.submit{
+	background-color: #698269;
+	font-size:16px;
+	color: black;
+	padding: 10px 27px;
+	text-align: center;
+}
+
+.submit:hover {
+	color: #B99B6B;
+}
+
+body {
+	background-color: #fdefe4;
+	font-size:20px;
+	font-family:'Times New Roman', serif;
+
+}
+
+footer {
+	top: 10vh;
+}
+
+
+#fs1{
+	border-color:#991818;
+	display: block;
+	margin-left: 40px;
+	margin-right: 60px;
+	padding: 2em 2em;
+	border-width:24px
+}
+
+/* editor button */
+#editor {
+	position: absolute;
+	right: 0;
+	top: 160vh;
+}
+
+#editor a {
+	text-decoration: none;
+	background-color: #F1DBBF;
+	color: black;
+	position: relative;
+	width: 10%;
+	border-radius: 10px; 
+	padding: 20px;
+}
+
+#editor a:hover {
+	color: #B99B6B; 
+}

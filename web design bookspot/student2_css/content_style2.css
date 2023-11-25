@@ -1,0 +1,51 @@
+/*Student 2 - Task 10 Extra content CSS*/
+
+.books img{
+	
+	width:200px;
+	float:left;
+	height:300px;
+	justify-content:left;
+	margin-left: 40px;
+}
+
+.books p{
+	text-align:justify;	
+	margin-left: 270px;
+	margin-right: 50px;
+}
+
+.books h5{
+	justify-content:left;	
+	margin-left: 270px;
+
+}
+h3{
+	margin-left: 40px;
+}
+
+footer{
+	top: 30vh;
+}
+
+/* editor page */
+#editor {
+	position: absolute;
+	right: 0;
+	top: 420vh;
+}
+
+#editor a {
+	text-decoration: none;
+	background-color: #F1DBBF;
+	color: black;
+	position: relative;
+	width: 10%;
+	border-radius: 10px; 
+	padding: 20px;
+
+}
+
+#editor a:hover {
+	color: #B99B6B; 
+}
